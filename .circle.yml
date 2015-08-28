@@ -1,0 +1,10 @@
+machine:
+  xcode:
+    version: "6.4.0"
+  environment:
+    XCODE_SCHEME: "Circle"
+
+dependencies:
+  override:
+    - pod install:
+        timeout: 300
